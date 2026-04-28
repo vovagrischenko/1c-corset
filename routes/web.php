@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::livewire('/shops', 'pages::shops')->name('shop.index');
+Route::livewire('/shops', 'pages::shops')->name('shops.index');
 
 //Route::livewire('/post/create', 'pages::post.create');
